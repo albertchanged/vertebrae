@@ -28,8 +28,8 @@ var Comment = Backbone.Model.extend({
     // var comment = new Comment();
     /* Set the initial values for `votes` to 0 and `message` to the message.
      * Remember to use setters when working with attributes! */
-    this.set({'votes': 0});
-    this.set({'message': message});
+    this.set('votes', 0);
+    this.set('message', message);
   },
   votes: function() {
     /* Return the votes attribute on this model.
